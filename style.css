@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #f4f7fb;
+    color: #333;
+}
+
+.navbar {
+    background: linear-gradient(135deg, #003366, #0055aa);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar a:hover, .active {
+    text-decoration: underline;
+}
+
+.hero {
+    height: 80vh;
+    background: linear-gradient(to right, #003366cc, #0055aacc),
+                url('../assets/images/school.jpg') center/cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    border: none;
+    background: white;
+    color: #003366;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    width: 260px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.page {
+    padding: 60px;
+}
+
+.list li {
+    margin: 10px 0;
+}
+
+footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
